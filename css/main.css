@@ -1,0 +1,74 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+   padding-top:0px;
+}
+
+.jumbotron {
+   text-align:center;
+   background: url("../img/noise_background_black.png") repeat;
+   color:#fff;
+}
+
+#share-buttons {
+   position: absolute;
+   left: 0px;
+   top: 30px; }
+   #share-buttons div {
+     width: 50px;
+     height: 50px; }
+   #share-buttons #twitter {
+     background: #2ecbf8; }
+     #share-buttons #twitter img {
+       width: 100%; }
+   #share-buttons #facebook {
+     background: #234769; }
+     #share-buttons #facebook img {
+       width: 100%; }
+
+.entity {
+   display: inline-block;
+   padding: 10px;
+   height: 200px;
+   min-width: 150px;
+   border-bottom: 1px solid #bbbbbb;
+   text-align: center; }
+   .entity .entity-image {
+     height: 100px; }
+   .entity img {
+     padding: 10px;
+     max-width: 100%;
+     max-height: 100px; }
+   .entity a {
+     background: #2ecbf8;
+     color: #fff;
+     display: block;
+     max-width: 110px;
+     margin: auto;
+     padding-right: 10px; }
+     .entity a img {
+       width: 25px;
+       float: left;
+       padding: 0px; }
+   .entity a:hover {
+     background: #26aed3; }
